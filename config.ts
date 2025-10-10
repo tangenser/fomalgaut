@@ -1,4 +1,4 @@
-// import token from './public.pem';
+import token from './public.pem';
 
 export const window = {
     width: 900,
@@ -13,7 +13,7 @@ export const window = {
 export const api = {
     ws: 'ws://107.161.154.167:9274/ws',
     web: 'http://107.161.154.167:9274',
-    // extraToken: token,
+    extraToken: token,
 };
 
 export const appPath = '.Fomalgaut-launcher';
